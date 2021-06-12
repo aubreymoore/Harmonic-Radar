@@ -1,0 +1,18 @@
+    Our goal is to find static end points for tags, not dyamic tracking.
+    The range limitation for detecting tags using mobile harmonic radar can be overcome using by mounting the radar device on an aerial drone.
+
+"A novel technique for tracing the movements of insects in the field is described.The detection system is based on radar technology originally developed for locating avalanche victims. The key of the system is a tiny electronic diode that, glued to the insect, can reflect microwave beams emitted by portable detection equipment." Mascanzoni and Wallin 1986
+
+"One way to overcome the problem of radar clutter is to "tag" intended targets withelectrically non-linear conductors which will absorb radiation at the radar transmitting frequency,and re-radiate it at a harmonic frequency. The radar receiver is tuned to this new frequency, andso responds only to signals from the tag, rejecting echoes from ground features. Systems of thistype are called harmonic radars. An important potential advantage of using the harmonictechnique for insect tracking is that extreme miniaturisation of the tag is possible, because thepower to operate it comes from the illuminating radar, and no battery is needed."  Riley 1995
+
+Review O'Neal et al. 2004
+
+Harmonic radar has been applied for tracking insects for several decades using custom built equipment (Kissling et al, 2014, Mascanzoni et al, 1986, O'Neal et al, 2004).  In recent years, harmonic radar has been developed commercially for finding avalanche victims, resulting in availability of prebuilt equipment (https://recco.com/) which can be repurposed for tracking insects (Maggiora et al, 2019, Milanesio et al, 2016, O'Neal et al, 2004).
+
+We will not be tracking beetles in real time.  Instead, we will be releasing CRB with attached HR diode tags and after a period of time we will determine where tagged CRB are aggregating.  Presumably, CRB will be aggregate at two types of locations, feeding and breeding sites.  All HR tags will be on the same frequency, which means that mutiple tagged CRB at a location will act to applify the signal.
+
+PROS: Tags are cheap; Unlimited shelf life; unlimited field life
+
+CONS: Tags cannot have different frequencies (but CRB can be marked uniquely)
+
+ 
