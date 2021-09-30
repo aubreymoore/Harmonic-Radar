@@ -29,6 +29,8 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 \usepackage[disable]{todonotes}
 
+\usepackage{graphicx}
+
 % Prevent page breaks within paragraphs
 % https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
 \widowpenalties 1 10000
@@ -50,6 +52,10 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 	\item[GRANT STATUS:] Active
 \end{description}	
 
+\textbf{Note to Reader:} Significant changes from the previous report are indicated by \textbf{bold-faced text}.
+
+\bigskip
+
 \begin{footnotesize}
 \url{https://github.com/aubreymoore/Harmonic-Radar/raw/master/FS-CRB-HR-report2.pdf}
 \end{footnotesize}
@@ -60,17 +66,14 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 \newpage
 
-% TODO: \usepackage{graphicx} required
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{drone}
-	\caption{RECCO harmonic radar device suspended from an agricultural drone.}
+	\caption{RECCO harmonic radar device suspended from an agricultural drone piloted by Dr. Glenn Dulla, Guam Department of Agriculture.}
 	\label{fig:drone}
 \end{figure}
 
-\listoftodos
-
-\newpage
+\clearpage
 
 
 \section{OBJECTIVES AND SPECIFIC ACTIVITIES} 
@@ -116,8 +119,8 @@ The most important activity is to conduct field releases and tracking of tagged 
 
 \textbf{Preliminary tests are promising. To date we have:
 \begin{itemize}
-	\item Used digital recordings of the RECCO's audio output to locate tags (Technical report)
-	\item Flown the RECCO harmonic radar to a drone (Fig. \ref{fig:drone})
+	\item Used digital recordings of the RECCO's audio output to locate tags (See Technical Report: Using a Cell Phone as a Datalogger for Handheld Harmonic Radar \url{https://github.com/aubreymoore/Harmonic-Radar/blob/master/experiments/techreport/techreport.pdf})	
+	\item Flown the RECCO harmonic radar device attached to a drone (Fig. \ref{fig:drone})
 \end{itemize}
 }
 
