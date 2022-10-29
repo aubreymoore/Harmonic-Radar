@@ -1,0 +1,584 @@
+.000 :    3315 [L-FMU/MOTOR]Start. reason:ACT.Takeoff
+.000 :    3315 [L-PWM]set actuator mode:CTRL
+.002 :    3315 [L-FDI]tilt when motor on = 0.058534, static flag = 1
+.003 :    3315 [L-MIS]set wp index info success: offset: 0, start: 0
+.003 :    3315 [L-MIS]recv mission id ,result 0
+.004 :    3315 [L-FMU/FSM]state changed. cur: on ground
+.021 :    3316 [L-IOC]Set CL.  27.1 Degree
+.021 :    3316 [L-TAKEOFF]alti: 45.389034 tors: 27.130566
+.832 :    3354 [L-FDI]hms uart3 lost err 0.02 0.00
+1.063 :    3366 [L-FMU/MOTOR]safe_near_grd:true
+3.115 :    3464 [L-N_MIS]Exit mis 4. New mis 6
+3.116 :    3464 [L-RADAR]Set radar filter wide to 20.00
+3.116 :    3464 [L-N_MIS]Switch new mis 6 req 4 from mis 4 req 4
+4.342 :    3523 [L-FMU/FSM]state changed. cur: in air
+4.354 :    3524 [L-HOME]Update. lati:13.4314297 longti:144.8028018 alti: 65.39
+4.692 :    3540 [L-FMU/LED]action changed. set home:(0)
+4.878 :    3549 [L-FMU/FSM]near ground
+4.999 :    3554 [L-FDI]hms uart3 lost err 0.02 0.00
+6.770 :    3640 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+6.879 :    3645 [L-FMU/LED]action changed. Normal Flash(0)
+6.879 :    3645 [L-FMU/LED]type:0, normal flash action:
+6.879 :    3645 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+7.415 :    3670 [L-FMU/FSM]not near ground
+7.419 :    3671 [L-FMU/MOTOR]safe_near_grd:false
+7.465 :    3673 [L-NS][AHRS] reset baro just after takeoff
+9.312 :    3762 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4640853||
+12.079 :    3894 [L-N_MIS]req abort all for reach target height
+12.084 :    3895 [L-TAKEOFF]exit auto takeoff plan!
+12.090 :    3895 [L-RADAR]Set radar filter wide to 20.00
+12.090 :    3895 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+12.090 :    3895 [L-FLYMODE]SWITCH2HOVER!
+12.110 :    3896 [L-N_MIS]Exit mis 3. New mis 18
+12.110 :    3896 [L-RADAR]Set radar filter wide to 6.00
+12.110 :    3896 [L-N_MIS]Switch new mis 18 req 4 from mis 3 req 2
+12.110 :    3896 [L-N_MIS]req abort plan for Waypoint init
+12.111 :    3896 [L-CFG]PM:[wp_init_function] "wp_vert_ctrl_type" to 0||
+12.111 :    3896 [L-MIS][WP]: use_tgt_yaw_B: 1
+12.111 :    3896 [L-MIS][WP]: point_end.yaw: 1.088118
+15.416 :    4054 [L-FDI]hms uart3 lost err 0.02 0.00
+15.834 :    4075 [L-CFG]PM:[wp_init_function] "wp_vert_ctrl_type" to 2||
+15.834 :    4075 [L-MIS][WP]: use_tgt_yaw_B: 1
+15.834 :    4075 [L-MIS][WP]: point_end.yaw: -0.017453
+17.686 :    4164 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+20.624 :    4304 [L-FDI]hms uart3 lost err 0.02 0.00
+28.603 :    4688 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+30.220 :    4765 [L-MIS]{[WP_FLY_p2p] p2p fly moving time out!
+30.558 :    4781 [L-MIS]line arc length:4.332003 
+30.558 :    4781 [L-CFG]PM:[wp_init_function] "wp_vert_ctrl_type" to 1||
+30.559 :    4781 [L-MIS][WP]: use_tgt_yaw_B: 1
+30.559 :    4781 [L-MIS][WP]: point_end.yaw: -0.017453
+30.564 :    4782 [L-MIS]Ready to handle action [29.38]
+30.569 :    4782 [L-MIS]I have done one action [29.40]
+30.569 :    4782 [L-MIS][WP]Done action_num 1 / 1, type 14
+30.574 :    4782 [L-MIS]I have done one sequence of actions [29.40]
+30.574 :    4782 [L-MIS]finished all actions, no rotation needed. [29.40]
+35.558 :    5021 [L-MIS]curve arc length:2.995960
+38.762 :    5175 [L-MIS]line arc length:3.367125
+39.520 :    5212 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+42.360 :    5348 [L-MIS]curve arc length:2.992598
+42.957 :    5377 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4641340||
+45.553 :    5501 [L-MIS]line arc length:2.686411
+46.666 :    5554 [L-FDI]hms uart3 lost err 0.02 0.00
+48.413 :    5638 [L-MIS]curve arc length:2.988909
+50.416 :    5735 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+51.605 :    5792 [L-MIS]line arc length:3.553054
+51.874 :    5804 [L-FDI]hms uart3 lost err 0.02 0.00
+55.402 :    5974 [L-MIS]curve arc length:2.991467
+56.334 :    6019 [L-GEO][LOG]Update add db tag[0.2344,2.5273]=>[0.2344,2.5273][1]
+56.334 :    6019 [L-GEO][LOG]add_db
+56.334 :    6019 [L-GEO][LOG][0]  2512 (  13486144, 144799425) r:2644
+56.334 :    6019 [L-GEO][LOG]=============================================
+56.334 :    6019 [L-GEO][LOG]clear add db!
+56.334 :    6019 [L-GEO][LOG]Update add db tag[0.2344,2.5273]=>[0.2344,2.5273][0]
+56.334 :    6019 [L-GEO][LOG]add_db
+56.334 :    6019 [L-GEO][LOG]=============================================
+58.600 :    6127 [L-MIS]line arc length:2.751626
+60.210 :    6205 [L-NS][AHRS],qg obv buffer size[218/270]
+60.210 :    6205 [L-NS][AHRS],pva obv buffer size[238/270]
+61.332 :    6259 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+61.543 :    6269 [L-MIS]curve arc length:2.992563
+64.741 :    6422 [L-MIS]line arc length:4.963854
+70.371 :    6692 [L-MIS]Ready to handle action [67.60]
+70.376 :    6693 [L-MIS]I have done one action [67.60]
+70.376 :    6693 [L-MIS][WP]Done action_num 1 / 1, type 14
+70.381 :    6693 [L-MIS]I have done one sequence of actions [67.62]
+70.381 :    6693 [L-MIS]finished all actions, no rotation needed. [67.62]
+70.624 :    6704 [L-FDI]hms uart3 lost err 0.02 0.00
+72.249 :    6783 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+72.506 :    6795 [L-MIS][WP]: turn mode. end of trace, quit.
+72.524 :    6796 [L-OSD]Mission finished, now I tell app:  3  size is 6
+72.527 :    6796 [L-N_MIS]Init plan 0 from requester 4 for reason 12. Pre plan 5
+72.527 :    6796 [L-MIS]no ready waypoint mission
+72.527 :    6796 [L-N_MIS]Fail to check mis 18. Reset
+72.527 :    6796 [L-N_MIS]Exit mis 18. New mis 3
+72.527 :    6796 [L-CFG]PM:[fmu_mp_mr_mis_wp_exit] "waypoint_wp_mission_is_finished" to 1||
+72.527 :    6796 [L-CFG]PM:[record_wp_break_pt] "waypoint_lon" to 2.527288||
+72.527 :    6796 [L-CFG]PM:[record_wp_break_pt] "waypoint_lat" to 0.234423||
+72.527 :    6796 [L-CFG]PM:[record_wp_break_pt] "waypoint_alt" to 9.868755||
+72.527 :    6796 [L-CFG]PM:[record_wp_break_pt] "waypoint_wp_index" to 6||
+72.527 :    6796 [L-MIS][WP MISSION STOP] Record wp break point:6 (144.876355 13.438248 9.868755)
+72.527 :    6796 [L-MIS][WP MISSION STOP] Record wp break point id: 0
+72.527 :    6796 [L-FARM][FARM] clear AB msg!|
+72.527 :    6796 [L-RADAR]Set radar filter wide to 20.00
+72.528 :    6796 [L-N_MIS]Switch new mis 3 req 2 from mis 18 req 4
+72.528 :    6796 [L-FLYMODE]SWITCH2HOVER!
+72.538 :    6796 [L-N_MIS]Exit mis 3. New mis 12
+72.538 :    6796 [L-RADAR]Set radar filter wide to 20.00
+72.538 :    6796 [L-N_MIS]Switch new mis 12 req 4 from mis 3 req 2
+72.707 :    6804 [L-FDI]hms uart3 lost err 0.03 0.00
+72.756 :    6807 [L-MIS]recv mission id ,result 0
+73.020 :    6819 [L-OSD]push wp finish info to app time out!
+76.707 :    6997 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4641828||
+79.999 :    7154 [L-FDI]hms uart3 lost err 0.02 0.00
+83.166 :    7307 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+94.082 :    7831 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+95.407 :    7894 [L-N_MIS]Exit mis 12. New mis 11
+95.407 :    7894 [L-RADAR]Set radar filter wide to 20.00
+95.407 :    7894 [L-N_MIS]Switch new mis 11 req 4 from mis 12 req 4
+96.044 :    7925 [L-RC]Start landing. rc vib!
+96.879 :    7965 [L-FMU/LED]action changed. near hori or vert limit:near vert limit(1)
+98.749 :    8054 [L-FDI]hms uart3 lost err 0.02 0.00
+100.832 :    8154 [L-FDI]hms uart3 lost err 0.02 0.00
+101.045 :    8165 [L-FMU/LED]action changed. Normal Flash(1)
+101.045 :    8165 [L-FMU/LED]type:0, normal flash action:
+101.046 :    8165 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+104.978 :    8354 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+110.436 :    8616 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4642316||
+113.274 :    8752 [L-RC]rc cmd:STD_EXIT_GOHOME_OR_LANDING
+113.274 :    8752 [L-N_MIS]req abort all for rc Go-Home Exit
+113.277 :    8752 [L-RADAR]Set radar filter wide to 20.00
+113.277 :    8752 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+113.277 :    8752 [L-FLYMODE]SWITCH2HOVER!
+115.895 :    8878 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+120.587 :    9103 [L-FMU/FSM]near ground
+121.544 :    9149 [L-FMU/MOTOR]safe_near_grd:true
+122.710 :    9205 [L-NS][AHRS],qg obv buffer size[218/270]
+122.710 :    9205 [L-NS][AHRS],pva obv buffer size[238/270]
+126.812 :    9402 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+135.503 :    9819 [L-RC]rc cmd:STD_STOP_MOTOR
+135.521 :    9820 [L-FMU/MOTOR] Stop. reason:MR_REQ_RC_NORMAL
+135.521 :    9820 [L-FMU/MOTOR]Total start times: 1, time: 130.10
+135.521 :    9820 [L-PWM]set actuator mode:IDLE
+135.523 :    9820 [L-N_MIS]req abort all for motor stopped
+135.524 :    9820 [L-FMU/FSM]state changed. cur: motor off
+135.559 :    9820 [L-NS][AHRS] reset baro just after land
+135.562 :    9820 [L-FARM][FARM] write invalid farm data to flash
+135.591 :    9820 [L-RADAR]Set radar filter wide to 20.00
+135.591 :    9820 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+135.591 :    9820 [L-FLYMODE]SWITCH2HOVER!
+135.592 :    9820 [L-MIS][WP/FARM] write mission id to flash success
+135.599 :    9821 [L-GEO][LOG][WARN!]write storage device[WARN!][cnt:0]
+135.634 :    9821 [L-GEO][LOG]update license:0=>ret[0]
+135.674 :    9823 [L-FMU/FSM]not near ground
+136.334 :    9854 [L-FDI]hms uart3 lost err 0.07 0.00
+136.334 :    9854 [L-FDI]link link_ofdm rx packerr (63 83)||
+136.334 :    9854 [L-FDI]link link_arg_board rx packerr (28 65)||
+136.334 :    9854 [L-FDI]link link_arg_radar rx packerr (84 134)||
+136.334 :    9854 [L-FDI]link link_arg_radar rx packerr (84 134)||
+136.334 :    9854 [L-FDI]link link_arg_radar rx packerr (84 134)||
+136.334 :    9854 [L-FDI]link link_arg_radar rx packerr (84 134)||
+137.254 :    9899 [L-FMU/MOTOR]safe_near_grd:false
+137.730 :    9922 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+144.209 :   10233 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4642805||
+148.647 :   10446 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+159.543 :   10969 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+170.460 :   11493 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+177.959 :   11853 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4643294||
+181.376 :   12017 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+185.292 :   12204 [L-NS][AHRS],qg obv buffer size[218/270]
+185.292 :   12204 [L-NS][AHRS],pva obv buffer size[238/270]
+192.293 :   12541 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+203.209 :   13065 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+211.518 :   13463 [L-CFG]get rc lost act. 0
+211.730 :   13474 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4643782||
+214.105 :   13588 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+214.710 :   13617 [L-CFG]PM:[Mobile APP] "g_status.farm.app_stop_motor_start" to 1||
+215.504 :   13655 [L-FMU/LED]action changed. farm app stop motor start:app stop motor start(1)
+221.293 :   13933 [L-MIS]recv user name ,result 0
+221.309 :   13933 [L-CFG]PM:[Mobile APP] "g_status.farm.app_stop_motor_start" to 0||
+221.756 :   13955 [L-FMU/LED]action changed. Normal Flash(1)
+221.756 :   13955 [L-FMU/LED]type:0, normal flash action:
+221.756 :   13955 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+225.022 :   14112 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+235.938 :   14636 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+245.501 :   15095 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4644271||
+246.855 :   15160 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+247.792 :   15204 [L-NS][AHRS],qg obv buffer size[218/270]
+247.792 :   15204 [L-NS][AHRS],pva obv buffer size[238/270]
+252.684 :   15439 [L-GEO][LOG]Update add db tag[0.2344,2.5273]=>[0.2344,2.5273][1]
+252.684 :   15439 [L-GEO][LOG]add_db
+252.684 :   15439 [L-GEO][LOG][0]  2512 (  13486144, 144799425) r:2644
+252.684 :   15439 [L-GEO][LOG]=============================================
+252.691 :   15440 [L-GEO][LOG][WARN!]write storage device[WARN!][cnt:1]
+252.728 :   15440 [L-GEO][LOG]update license:1=>ret[0]
+253.030 :   15454 [L-FDI]link link_ofdm rx packerr (12 88)||
+253.030 :   15454 [L-FDI]link link_exgcm0 rx packerr (8 153)||
+257.759 :   15682 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+261.363 :   15854 [L-FDI]hms uart3 lost err 0.06 0.00
+268.676 :   16206 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+279.280 :   16715 [L-DEV]24-AG410 RD:01000711 Sep 13 2018 12:13:18 395 4644760||
+279.592 :   16730 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+290.509 :   17254 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+291.016 :   17278 [L-CFG]PM:var g_config.farm.max_vel_limit over low
+291.058 :   17280 [L-MIS][SDK] old open GS(app)
+291.058 :   17280 [L-MIS]received on/off 1 from dev 1
+291.058 :   17280 [L-MIS]ack on/off 0 to can
+291.162 :   17285 [L-MIS]received mission length 7 from app
+291.162 :   17285 [L-MIS][WP_INFO]:goto_first_flag = 0
+291.162 :   17285 [L-MIS][WP INFO]: len:7, vel_range:10.000000, idle_vel:0.975372, action_on_finish:1
+291.162 :   17285 [L-MIS][WP INFO]: exex_num:1, yaw_mode:3, trace_mode:1, rc_lost 0
+291.162 :   17285 [L-MIS][WP INFO]: gimbal_mode:0, hp_pos(0.00000000, 0.00000000, 0.00)
+291.162 :   17285 [L-MIS][WP INFO]: goto_first:0, cam_act:0, cam_parm:0, id 0
+291.162 :   17285 [L-MIS]ack mission info 0 to app
+291.248 :   17289 [L-MIS][WP_UPLOAD]0: Llh(0.23442611,2.52729241,10.00) D:0.21
+291.248 :   17289 [L-MIS][WP]tgt_yaw -1, tgt_gim 0 turn_mode 0 speed(0,0)
+291.248 :   17289 [L-MIS][WP]cam_act(0,0) has_act 1 act_num 1
+291.248 :   17289 [L-MIS]ack upload result 0 to app
+291.308 :   17292 [L-MIS][WP_UPLOAD]1: Llh(0.23442562,2.52729161,10.00) D:1.50
+291.308 :   17292 [L-MIS][WP]tgt_yaw -1, tgt_gim 0 turn_mode 0 speed(0,0)
+291.308 :   17292 [L-MIS][WP]cam_act(0,0) has_act 1 act_num 1
+291.308 :   17292 [L-MIS]ack upload result 0 to app
+291.352 :   17294 [L-MIS][WP_UPLOAD]2: Llh(0.23442499,2.52729082,10.00) D:1.50
+291.352 :   17294 [L-MIS][WP]tgt_yaw -1, tgt_gim 0 turn_mode 0 speed(0,0)
+291.352 :   17294 [L-MIS][WP]cam_act(0,0) has_act 1 act_num 1
+291.352 :   17294 [L-MIS]ack upload result 0 to app
+291.422 :   17297 [L-MIS][WP_UPLOAD]3: Llh(0.23442455,2.52729002,10.00) D:1.50
+291.422 :   17297 [L-MIS][WP]tgt_yaw -1, tgt_gim 0 turn_mode 0 speed(0,0)
+291.422 :   17297 [L-MIS][WP]cam_act(0,0) has_act 1 act_num 1
+291.422 :   17297 [L-MIS]ack upload result 0 to app
+291.516 :   17302 [L-MIS][WP_UPLOAD]4: Llh(0.23442387,2.52728923,10.00) D:1.50
+291.516 :   17302 [L-MIS][WP]tgt_yaw -1, tgt_gim 0 turn_mode 0 speed(0,0)
+291.516 :   17302 [L-MIS][WP]cam_act(0,0) has_act 1 act_num 1
+291.516 :   17302 [L-MIS]ack upload result 0 to app
+291.560 :   17304 [L-MIS][WP_UPLOAD]5: Llh(0.23442342,2.52728843,10.00) D:1.50
+291.560 :   17304 [L-MIS][WP]tgt_yaw -1, tgt_gim 0 turn_mode 0 speed(0,0)
+291.560 :   17304 [L-MIS][WP]cam_act(0,0) has_act 1 act_num 1
+291.560 :   17304 [L-MIS]ack upload result 0 to app
+291.620 :   17307 [L-MIS][WP_UPLOAD]6: Llh(0.23442276,2.52728763,10.00) D:0.21
+291.620 :   17307 [L-MIS][WP]tgt_yaw -1, tgt_gim 0 turn_mode 0 speed(0,0)
+291.620 :   17307 [L-MIS][WP]cam_act(0,0) has_act 1 act_num 1
+291.620 :   17307 [L-MIS]input mission validity is 0
+291.620 :   17307 [L-MIS]ack upload result 0 to app
+291.766 :   17314 [L-CFG]get rc lost act. 0
+293.870 :   17415 [L-MIS]WP Mission: received go/stop 0 from app
+293.870 :   17415 [L-MIS]WP Mission: ack go/stop 0 to app
+293.912 :   17417 [L-N_MIS]Init plan 1 from requester 4 for reason 24. Pre plan 5
+293.912 :   17417 [L-TAKEOFF]enter auto takeoff plan
+293.912 :   17417 [L-N_MIS]Exit mis 3. New mis 4
+293.912 :   17417 [L-RADAR]Set radar filter wide to 20.00
+293.912 :   17417 [L-N_MIS]Switch new mis 4 req 4 from mis 3 req 2
+293.927 :   17418 [L-FMU/MOTOR]Start. reason:ACT.Takeoff
+293.927 :   17418 [L-PWM]set actuator mode:CTRL
+293.929 :   17418 [L-FDI]tilt when motor on = 0.034090, static flag = 1
+293.930 :   17418 [L-FMU/FSM]state changed. cur: on ground
+293.948 :   17419 [L-TAKEOFF]alti: 44.364491 tors: 26.228523
+293.954 :   17419 [L-MIS]set wp index info success: offset: 0, start: 0
+293.995 :   17421 [L-MIS]recv mission id ,result 0
+294.697 :   17454 [L-FDI]hms uart3 lost err 0.03 0.00
+294.992 :   17469 [L-FMU/MOTOR]safe_near_grd:true
+295.738 :   17504 [L-FDI]hms uart3 lost err 0.02 0.00
+296.780 :   17554 [L-FDI]hms uart3 lost err 0.02 0.00
+297.042 :   17567 [L-N_MIS]Exit mis 4. New mis 6
+297.043 :   17567 [L-RADAR]Set radar filter wide to 20.00
+297.043 :   17567 [L-N_MIS]Switch new mis 6 req 4 from mis 4 req 4
+298.347 :   17630 [L-FMU/FSM]state changed. cur: in air
+298.364 :   17631 [L-HOME]Update. lati:13.4314527 longti:144.8028004 alti: 64.36
+298.659 :   17645 [L-FMU/LED]action changed. set home:(0)
+298.863 :   17654 [L-FDI]hms uart3 lost err 0.02 0.00
+298.925 :   17657 [L-FMU/FSM]near ground
+300.848 :   17750 [L-FMU/LED]action changed. Normal Flash(0)
+300.848 :   17750 [L-FMU/LED]type:0, normal flash action:
+300.848 :   17750 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+300.947 :   17754 [L-FDI]hms uart3 lost err 0.02 0.00
+301.248 :   17769 [L-FMU/FSM]not near ground
+301.263 :   17770 [L-FMU/MOTOR]safe_near_grd:false
+301.405 :   17777 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+301.470 :   17780 [L-NS][AHRS] reset baro just after takeoff
+301.988 :   17804 [L-FDI]hms uart3 lost err 0.02 0.00
+305.113 :   17954 [L-FDI]hms uart3 lost err 0.02 0.00
+305.714 :   17983 [L-N_MIS]req abort all for reach target height
+305.720 :   17984 [L-TAKEOFF]exit auto takeoff plan!
+305.725 :   17984 [L-RADAR]Set radar filter wide to 20.00
+305.725 :   17984 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+305.725 :   17984 [L-FLYMODE]SWITCH2HOVER!
+305.745 :   17985 [L-N_MIS]Exit mis 3. New mis 18
+305.746 :   17985 [L-RADAR]Set radar filter wide to 6.00
+305.746 :   17985 [L-N_MIS]Switch new mis 18 req 4 from mis 3 req 2
+305.746 :   17985 [L-N_MIS]req abort plan for Waypoint init
+305.746 :   17985 [L-CFG]PM:[reset_wp_break_info] "waypoint_wp_index" to 0||
+305.746 :   17985 [L-CFG]PM:[reset_wp_break_info] "waypoint_wp_mission_is_finished" to 0||
+305.746 :   17985 [L-CFG]PM:[wp_init_function] "wp_vert_ctrl_type" to 0||
+305.746 :   17985 [L-MIS][WP]: use_tgt_yaw_B: 1
+305.746 :   17985 [L-MIS][WP]: point_end.yaw: 1.141882
+307.197 :   18054 [L-FDI]hms uart3 lost err 0.02 0.00
+309.251 :   18153 [L-CFG]PM:[wp_init_function] "wp_vert_ctrl_type" to 2||
+309.251 :   18153 [L-MIS][WP]: use_tgt_yaw_B: 1
+309.251 :   18153 [L-MIS][WP]: point_end.yaw: -0.017453
+309.280 :   18154 [L-FDI]hms uart3 lost err 0.02 0.00
+310.319 :   18204 [L-NS][AHRS],qg obv buffer size[218/270]
+310.319 :   18204 [L-NS][AHRS],pva obv buffer size[238/270]
+312.322 :   18301 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+312.405 :   18304 [L-FDI]hms uart3 lost err 0.02 0.00
+313.447 :   18354 [L-FDI]hms uart3 lost err 0.03 0.00
+315.530 :   18454 [L-FDI]hms uart3 lost err 0.02 0.00
+317.613 :   18554 [L-FDI]hms uart3 lost err 0.02 0.00
+319.697 :   18654 [L-FDI]hms uart3 lost err 0.02 0.00
+321.780 :   18754 [L-FDI]hms uart3 lost err 0.02 0.00
+322.822 :   18804 [L-FDI]hms uart3 lost err 0.02 0.00
+323.239 :   18825 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+323.459 :   18835 [L-MIS]{[WP_FLY_p2p] p2p fly moving time out!
+323.798 :   18851 [L-MIS]line arc length:4.332003 
+323.798 :   18851 [L-CFG]PM:[wp_init_function] "wp_vert_ctrl_type" to 1||
+323.798 :   18851 [L-MIS][WP]: use_tgt_yaw_B: 1
+323.798 :   18851 [L-MIS][WP]: point_end.yaw: -0.017453
+323.803 :   18852 [L-MIS]Ready to handle action [28.72]
+323.808 :   18852 [L-MIS]I have done one action [28.74]
+323.808 :   18852 [L-MIS][WP]Done action_num 1 / 1, type 14
+323.813 :   18852 [L-MIS]I have done one sequence of actions [28.74]
+323.813 :   18852 [L-MIS]finished all actions, no rotation needed. [28.74]
+325.947 :   18954 [L-FDI]hms uart3 lost err 0.02 0.00
+326.988 :   19004 [L-FDI]hms uart3 lost err 0.02 0.00
+328.673 :   19085 [L-MIS]curve arc length:2.995960
+331.155 :   19204 [L-FDI]hms uart3 lost err 0.02 0.00
+331.876 :   19239 [L-MIS]line arc length:3.367125
+333.238 :   19304 [L-FDI]hms uart3 lost err 0.02 0.00
+334.155 :   19349 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+335.475 :   19412 [L-MIS]curve arc length:2.992598
+336.363 :   19454 [L-FDI]hms uart3 lost err 0.02 0.00
+337.405 :   19504 [L-FDI]hms uart3 lost err 0.02 0.00
+338.673 :   19565 [L-MIS]line arc length:2.686411
+339.488 :   19604 [L-FDI]hms uart3 lost err 0.02 0.00
+340.530 :   19654 [L-FDI]hms uart3 lost err 0.02 0.00
+341.543 :   19703 [L-MIS]curve arc length:2.988909
+341.572 :   19704 [L-FDI]hms uart3 lost err 0.02 0.00
+343.655 :   19804 [L-FDI]hms uart3 lost err 0.02 0.00
+344.735 :   19856 [L-MIS]line arc length:3.553054
+345.072 :   19873 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+345.738 :   19904 [L-FDI]hms uart3 lost err 0.02 0.00
+346.780 :   19954 [L-FDI]hms uart3 lost err 0.02 0.00
+348.532 :   20039 [L-MIS]curve arc length:2.991467
+348.863 :   20054 [L-FDI]hms uart3 lost err 0.02 0.00
+349.905 :   20104 [L-FDI]hms uart3 lost err 0.02 0.00
+351.730 :   20192 [L-MIS]line arc length:2.751626
+351.988 :   20204 [L-FDI]hms uart3 lost err 0.02 0.00
+353.030 :   20254 [L-FDI]hms uart3 lost err 0.02 0.00
+354.673 :   20333 [L-MIS]curve arc length:2.992563
+355.113 :   20354 [L-FDI]hms uart3 lost err 0.02 0.00
+355.988 :   20397 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+356.155 :   20404 [L-FDI]hms uart3 lost err 0.02 0.00
+357.871 :   20487 [L-MIS]line arc length:4.963854
+358.238 :   20504 [L-FDI]hms uart3 lost err 0.02 0.00
+359.280 :   20554 [L-FDI]hms uart3 lost err 0.02 0.00
+361.363 :   20654 [L-FDI]hms uart3 lost err 0.02 0.00
+363.447 :   20754 [L-FDI]hms uart3 lost err 0.02 0.00
+363.501 :   20757 [L-MIS]Ready to handle action [66.84]
+363.506 :   20757 [L-MIS]I have done one action [66.84]
+363.506 :   20757 [L-MIS][WP]Done action_num 1 / 1, type 14
+363.511 :   20758 [L-MIS]I have done one sequence of actions [66.84]
+363.511 :   20758 [L-MIS]finished all actions, no rotation needed. [66.84]
+365.530 :   20854 [L-FDI]hms uart3 lost err 0.10 0.00
+366.885 :   20920 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+367.613 :   20954 [L-FDI]hms uart3 lost err 0.02 0.00
+367.886 :   20968 [L-MIS][WP]: turn mode. end of trace, quit.
+367.888 :   20968 [L-OSD]Mission finished, now I tell app:  3  size is 6
+367.891 :   20968 [L-N_MIS]Init plan 0 from requester 4 for reason 12. Pre plan 5
+367.891 :   20968 [L-MIS]no ready waypoint mission
+367.891 :   20968 [L-N_MIS]Fail to check mis 18. Reset
+367.891 :   20968 [L-N_MIS]Exit mis 18. New mis 3
+367.892 :   20968 [L-FARM][FARM] clear AB msg!|
+367.892 :   20968 [L-RADAR]Set radar filter wide to 20.00
+367.892 :   20968 [L-N_MIS]Switch new mis 3 req 2 from mis 18 req 4
+367.892 :   20968 [L-FLYMODE]SWITCH2HOVER!
+367.902 :   20968 [L-N_MIS]Exit mis 3. New mis 12
+367.902 :   20968 [L-RADAR]Set radar filter wide to 20.00
+367.902 :   20968 [L-N_MIS]Switch new mis 12 req 4 from mis 3 req 2
+368.120 :   20979 [L-MIS]recv mission id ,result 0
+368.363 :   20990 [L-OSD]push wp finish info to app time out!
+368.655 :   21004 [L-FDI]hms uart3 lost err 0.02 0.00
+371.780 :   21154 [L-FDI]hms uart3 lost err 0.02 0.00
+372.819 :   21204 [L-NS][AHRS],qg obv buffer size[218/270]
+372.819 :   21204 [L-NS][AHRS],pva obv buffer size[238/270]
+373.863 :   21254 [L-FDI]hms uart3 lost err 0.02 0.00
+376.988 :   21404 [L-FDI]hms uart3 lost err 0.02 0.00
+377.801 :   21444 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+380.113 :   21554 [L-FDI]hms uart3 lost err 0.02 0.00
+383.238 :   21704 [L-FDI]hms uart3 lost err 0.02 0.00
+384.280 :   21754 [L-FDI]hms uart3 lost err 0.02 0.00
+387.405 :   21904 [L-FDI]hms uart3 lost err 0.02 0.00
+388.718 :   21968 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+390.530 :   22054 [L-FDI]hms uart3 lost err 0.02 0.00
+391.136 :   22084 [L-N_MIS]Exit mis 12. New mis 11
+391.136 :   22084 [L-RADAR]Set radar filter wide to 20.00
+391.136 :   22084 [L-N_MIS]Switch new mis 11 req 4 from mis 12 req 4
+391.950 :   22123 [L-RC]Start landing. rc vib!
+392.613 :   22154 [L-FDI]hms uart3 lost err 0.02 0.00
+396.780 :   22354 [L-FDI]hms uart3 lost err 0.02 0.00
+397.822 :   22404 [L-FDI]hms uart3 lost err 0.02 0.00
+398.863 :   22454 [L-FDI]hms uart3 lost err 0.02 0.00
+399.634 :   22492 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+399.905 :   22504 [L-FDI]hms uart3 lost err 0.02 0.00
+400.947 :   22554 [L-FDI]hms uart3 lost err 0.02 0.00
+405.113 :   22754 [L-FDI]hms uart3 lost err 0.02 0.00
+407.197 :   22854 [L-FDI]hms uart3 lost err 0.02 0.00
+408.238 :   22904 [L-FDI]hms uart3 lost err 0.02 0.00
+409.242 :   22953 [L-FLYMODE]rc2wm220 sets force landing!
+409.242 :   22953 [L-FLYMODE]Recv force landing cmd!(0,0,1)
+409.242 :   22953 [L-FLYMODE]Req force landing!
+409.242 :   22953 [L-FLYMODE]reset all force landing cmd
+409.280 :   22954 [L-FDI]hms uart3 lost err 0.02 0.00
+410.322 :   23004 [L-FDI]hms uart3 lost err 0.02 0.00
+410.551 :   23016 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+410.935 :   23034 [L-FMU/FSM]near ground
+411.742 :   23073 [L-N_MIS]req abort all for rc_cmd_status2wm220 throttle>=-RC_INPUT_LOW_MAX
+411.746 :   23073 [L-RADAR]Set radar filter wide to 20.00
+411.746 :   23073 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+411.746 :   23073 [L-FLYMODE]SWITCH2HOVER!
+411.888 :   23080 [L-FMU/MOTOR]safe_near_grd:true
+412.405 :   23104 [L-FDI]hms uart3 lost err 0.02 0.00
+414.488 :   23204 [L-FDI]hms uart3 lost err 0.02 0.00
+421.447 :   23539 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+425.947 :   23754 [L-FDI]hms uart3 lost err 0.02 0.00
+429.072 :   23904 [L-FDI]hms uart3 lost err 0.02 0.00
+430.113 :   23954 [L-FDI]hms uart3 lost err 0.02 0.00
+431.155 :   24004 [L-FDI]hms uart3 lost err 0.02 0.00
+432.197 :   24054 [L-FDI]hms uart3 lost err 0.02 0.00
+432.363 :   24063 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+434.280 :   24154 [L-FDI]hms uart3 lost err 0.02 0.00
+435.319 :   24204 [L-NS][AHRS],qg obv buffer size[218/270]
+435.319 :   24204 [L-NS][AHRS],pva obv buffer size[238/270]
+435.848 :   24230 [L-FMU/LED]type:0, normal flash action:
+435.848 :   24230 [L-FMU/LED]c0:0,1;c1:0,1;c2:0,1;c3:2,3;c4:0,1;c5:0,1;c6:0,1;c7:0,1
+436.056 :   24240 [L-RC]Emergency break. rc vib!
+440.530 :   24454 [L-FDI]hms uart3 lost err 0.02 0.00
+441.805 :   24516 [L-FMU/LED]type:0, normal flash action:
+441.806 :   24516 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+442.554 :   24552 [L-RC]rc cmd:STD_STOP_MOTOR
+442.573 :   24553 [L-FMU/MOTOR] Stop. reason:MR_REQ_RC_NORMAL
+442.573 :   24553 [L-FMU/MOTOR]Total start times: 2, time: 272.80
+442.573 :   24553 [L-PWM]set actuator mode:IDLE
+442.573 :   24553 [L-N_MIS]req abort all for motor stopped
+442.598 :   24553 [L-FMU/FSM]state changed. cur: motor off
+442.599 :   24553 [L-FARM][FARM] write invalid farm data to flash
+442.600 :   24553 [L-NS][AHRS] reset baro just after land
+442.635 :   24553 [L-RADAR]Set radar filter wide to 20.00
+442.635 :   24553 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+442.635 :   24553 [L-FLYMODE]SWITCH2HOVER!
+442.638 :   24553 [L-MIS][WP/FARM] write mission id to flash success
+442.663 :   24554 [L-FDI]link link_ofdm rx packerr (37 88)||
+442.663 :   24554 [L-FDI]link link_arg_board rx packerr (28 69)||
+442.709 :   24557 [L-FMU/FSM]not near ground
+443.267 :   24584 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+443.705 :   24604 [L-FDI]hms uart3 lost err 0.05 0.00
+444.271 :   24632 [L-FMU/MOTOR]safe_near_grd:false
+454.184 :   25108 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+465.101 :   25632 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+465.479 :   25650 [L-RC]rc_connect:1=>0
+465.479 :   25650 [L-RC]rc_func_disable @ [518503 ms]
+465.580 :   25654 [L-FDI]hms uart3 lost err 0.02 0.00
+469.979 :   25866 [L-FMU/LED]action changed. rc completely lost:(0)
+470.793 :   25905 [L-FMU/LED]Set open status from 0x0900, act_id 63, status 0
+470.795 :   25905 [L-API][MUTI_DRONE] receive muti_drone info: not_in_ctrl_flag:1 id:51
+470.834 :   25907 [L-FMU/LED]action changed. Normal Flash(0)
+476.017 :   26156 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+486.913 :   26679 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+487.251 :   26695 [L-FMU/LED]Set open status from 0x0900, act_id 62, status 1
+487.254 :   26695 [L-FMU/LED]Set open status from 0x0900, act_id 63, status 1
+487.259 :   26695 [L-API][MUTI_DRONE] receive muti_drone info: not_in_ctrl_flag:0 id:51
+487.293 :   26697 [L-FMU/LED]action changed. select(0)
+488.375 :   26749 [L-RC]rc_connect:0=>1
+488.375 :   26749 [L-SYS]app lost connection!
+488.375 :   26749 [L-GEO]lost app, clear app_pos_info
+488.375 :   26749 [L-RC]rc_resume @ [540483 ms]
+488.375 :   26749 [L-RC]set rc_resume_lock
+488.375 :   26749 [L-N_MIS]req abort all for re_connected
+488.376 :   26749 [L-SEND DATA]app connect changed:last(1) != current(0)
+488.400 :   26750 [L-RADAR]Set radar filter wide to 20.00
+488.400 :   26750 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+488.400 :   26750 [L-FLYMODE]SWITCH2HOVER!
+488.521 :   26756 [L-FMU/LED]action changed. Normal Flash(0)
+488.521 :   26756 [L-FMU/LED]type:0, normal flash action:
+488.521 :   26756 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+488.896 :   26774 [L-RC]clr rc_resume_lock
+488.959 :   26777 [L-FMU/LED]action changed. on_ctrl(0)
+496.333 :   27131 [L-SYS]app connected!
+496.334 :   27131 [L-SEND DATA]app connect changed:last(0) != current(1)
+496.373 :   27133 [L-GEO][LOG]Update local db tag[0.2344,2.5273]=>[0.2344,2.5273][1]
+497.185 :   27172 [L-SYS]app lost connection!
+497.185 :   27172 [L-GEO]lost app, clear app_pos_info
+497.188 :   27172 [L-SEND DATA]app connect changed:last(1) != current(0)
+497.229 :   27174 [L-GEO][LOG]Update local db tag[0.2344,2.5273]=>[0.2344,2.5273][1]
+497.830 :   27203 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+497.869 :   27204 [L-NS][AHRS],qg obv buffer size[218/270]
+497.869 :   27204 [L-NS][AHRS],pva obv buffer size[238/270]
+498.019 :   27212 [L-SYS]app connected!
+498.021 :   27212 [L-SEND DATA]app connect changed:last(0) != current(1)
+498.062 :   27214 [L-GEO][LOG]Update local db tag[0.2344,2.5273]=>[0.2344,2.5273][1]
+499.024 :   27260 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+499.027 :   27260 [L-SYS]activation status: 1, moment 1556512339000
+499.027 :   27260 [L-SYS]whether has burn one craft one key 0
+499.027 :   27260 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+499.027 :   27260 [L-SYS]GET CRAFT TYPE: craft type 0, contract status 0
+499.030 :   27260 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+499.045 :   27261 [L-DBG1]receive product config: cmd_id: 4
+499.045 :   27261 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+499.425 :   27279 [L-SYS]GET CRAFT TYPE: craft type 0, contract status 0
+500.048 :   27309 [L-SYS]GET CRAFT TYPE: craft type 0, contract status 0
+500.048 :   27309 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+500.048 :   27309 [L-DBG1]receive product config: cmd_id: 4
+500.050 :   27309 [L-CAMERA]cmd_handler_setting_date 2022-06-09, 09:43:46||
+500.050 : 50f03<fly-ctrl>calender_setup_time  [2022-6-9]9:43:46. last_type(7),updates(1)
+500.051 :   27309 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+500.066 :   27310 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+500.074 :   27310 [L-CFG]PM:[Mobile APP] "g_status.farm.app_stop_motor_start" to 1||
+500.087 :   27311 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+500.092 :   27311 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+500.504 :   27331 [L-SYS]GET CRAFT TYPE: craft type 0, contract status 0
+500.996 :   27354 [L-FDI]hms uart3 lost err 0.02 0.00
+501.238 :   27366 [L-ACTIVATION]idx:0 id:2 get info,sta:1,date:2019-4-29,time:4-32-19, proId:148DJ03537
+501.646 :   27386 [L-FMU/LED]action changed. farm app stop motor start:app stop motor start(1)
+505.324 :   27562 [L-GPS]<EXGCM INFO>gps0: actuvate status: aa||
+508.747 :   27727 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+519.663 :   28251 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+521.851 :   28356 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+532.747 :   28879 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+543.663 :   29403 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+554.580 :   29927 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+560.369 :   30204 [L-NS][AHRS],qg obv buffer size[218/270]
+560.369 :   30204 [L-NS][AHRS],pva obv buffer size[238/270]
+565.497 :   30451 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+576.413 :   30975 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+581.524 :   31220 [L-MIS]recv user name ,result 0
+581.527 :   31220 [L-CFG]PM:[Mobile APP] "g_status.farm.app_stop_motor_start" to 0||
+581.646 :   31226 [L-FMU/LED]action changed. Normal Flash(1)
+581.646 :   31226 [L-FMU/LED]type:0, normal flash action:
+581.646 :   31226 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+585.209 :   31397 [L-RC]rc cmd:STD_ASSI_TAKEOFF
+585.227 :   31398 [L-FMU/MOTOR]Start. reason:MR_REQ_RC_NORMAL
+585.227 :   31398 [L-PWM]set actuator mode:CTRL
+585.229 :   31398 [L-FDI]tilt when motor on = 0.054232, static flag = 1
+585.229 :   31398 [L-FLYMODE]MR_REQ_R_RC_ASST_TAKEOFF
+585.230 :   31398 [L-FMU/FSM]state changed. cur: on ground
+585.233 :   31398 [L-N_MIS]Init plan 3 from requester 2 for reason 9. Pre plan 5
+585.233 :   31398 [L-TAKEOFF]enter assit takeoff plan
+585.233 :   31398 [L-N_MIS]Exit mis 3. New mis 4
+585.233 :   31398 [L-RADAR]Set radar filter wide to 20.00
+585.233 :   31398 [L-N_MIS]Switch new mis 4 req 2 from mis 3 req 2
+585.248 :   31399 [L-TAKEOFF]alti: 44.239349 tors: 18.854156
+585.372 :   31404 [L-FDI]hms uart3 lost err 0.05 0.00
+586.291 :   31449 [L-FMU/MOTOR]safe_near_grd:true
+587.330 :   31499 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+588.363 :   31548 [L-N_MIS]Exit mis 4. New mis 5
+588.363 :   31548 [L-RADAR]Set radar filter wide to 20.00
+588.363 :   31548 [L-N_MIS]Switch new mis 5 req 2 from mis 4 req 2
+589.387 :   31597 [L-FMU/FSM]state changed. cur: in air
+589.394 :   31598 [L-HOME]Update. lati:13.4314622 longti:144.8027874 alti: 64.24
+589.394 :   31598 [L-N_MIS]req abort all for assit takeoff finished
+589.400 :   31598 [L-TAKEOFF]exit assit takeoff plan
+589.400 :   31598 [L-RADAR]Set radar filter wide to 20.00
+589.400 :   31598 [L-N_MIS]Switch new mis 3 req 2 from mis 26 req 16
+589.400 :   31598 [L-FLYMODE]SWITCH2HOVER!
+589.829 :   31618 [L-FMU/FSM]near ground
+591.023 :   31676 [L-FMU/LED]action changed. set home:(0)
+591.136 :   31681 [L-FMU/FSM]not near ground
+591.146 :   31682 [L-FMU/MOTOR]safe_near_grd:false
+592.510 :   31747 [L-NS][AHRS] reset baro just after takeoff
+593.209 :   31781 [L-FMU/LED]action changed. Normal Flash(0)
+593.209 :   31781 [L-FMU/LED]type:0, normal flash action:
+593.209 :   31781 [L-FMU/LED]c0:0,15;c1:0,3;c2:0,13;c3:2,3;c4:0,10;c5:0,3;c6:0,10;c7:0,3
+598.226 :   32022 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+600.710 :   32141 [L-FMU/LED]action changed. battery warning!:battery_status_data.capacity_level1_status
+609.143 :   32546 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+613.238 :   32742 [L-GEO][LOG]Update add db tag[0.2344,2.5273]=>[0.2344,2.5273][1]
+613.238 :   32742 [L-GEO][LOG]add_db
+613.238 :   32742 [L-GEO][LOG][0]  2512 (  13486144, 144799425) r:2644
+613.238 :   32742 [L-GEO][LOG]=============================================
+620.059 :   33070 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+622.869 :   33204 [L-NS][AHRS],qg obv buffer size[218/270]
+622.869 :   33204 [L-NS][AHRS],pva obv buffer size[238/270]
+630.976 :   33594 [L-DEV]24-radar selfcheck result, base_status:00aa, extra_status:00aa||
+634.209 :   33749 [L-FMU/FSM]near ground
+635.167 :   33795 [L-FMU/MOTOR]safe_near_grd:true
+635.167 :   33795 [L-RC]Emergency break. rc vib!
+638.563 :   33958 [L-RC]rc cmd:STD_STOP_MOTOR
+638.583 :   33959 [L-FMU/MOTOR] Stop. reason:MR_REQ_RC_NORMAL
