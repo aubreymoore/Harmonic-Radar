@@ -1,0 +1,29 @@
+
+There are uncited references
+
+    - "Daniel Kissling et al. 2014" is not cited in the text
+    - "O'Neal et al. 2004" is not cited in the text
+    - "Maggiora et al. 2019" is not cited in the text
+    - "Mascanzoni and Wallin 1986" is not cited in the text
+    - "Milanesio et al. 2016" is not cited in the text
+    - "Moore et al. 2017" is not cited in the text
+    - "Bedford 2013b" is not cited in the text
+    - "Riley 1995" is not cited in the text
+    - "Bedford 1976b" is not cited in the text
+    - "Marshall et al. 2017" is not cited in the text 
+
+There are uncited tables
+
+    - Table 1 is not cited in the text 
+
+Missing field(s)
+
+    - Keywords in "Keywords" 
+
+Number of characters (with spaces):
+13889 
+
+
+"Tags cost approximately USD 4/tag which includes materials (~USD 2.5) and labor (~USD 1.5, assuming USD 15/hr)." 
+
+Not sure if you want to add something like the following too.  "The detection range for the tags under ideal conditions (line of sight and correction orientation) was 50-70 m.  The detection range under field conditions was assumed to be approximately 10 m."
