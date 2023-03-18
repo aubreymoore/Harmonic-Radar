@@ -361,15 +361,39 @@ US Forest Service funded a field test of this idea based on a small grant propos
 \newpage
 \section{Field Test}
 
-In July 2022, Dr. Matt Siderhurst, from Eastern Mennonite University, Virginia and two of his students, Skylar List and and Theodore Yoder, worked with us on Guam to field test the idea of tracking beetles with miniature harmonic radar tags attached to them. We were also assisted by Michael Jordan, US Forest Service.
+In July 2022, Dr. Matt Siderhurst, from Eastern Mennonite University, Virginia and two of his students, Skylar List and and Theodore Yoder, travelled to Guam to collaborate with us on Guam to field test the idea of tracking beetles with miniature harmonic radar tags attached to them. We were also assisted by Michael Jordan, US Forest Service and my technician, Christian Cayanan.
 
-We used an Open Science Framework project \cite{Moore_Yoder_Cayanan_List_2023} to document this field experiment.
+We used an Open Science Framework (OSF) project \cite{Moore_Yoder_Cayanan_List_2023} to document this field trial. \href{https://osf.io/esnc7/}{Details are available online}. The following subsections summarize what we did and what we learned.
 
-A total of 27 tagged beetles were released at the University of Guam Yigo Experiment Station on July 7 and 11 and 39 beetles were released in Yona on July 12. Surveys using RECCO harmonic radar tranceivers were conducted at Yigo on July 8, 12 and 15 and at Yona on July 13 and 15. No tagged beetles were detected during the 5 surveys.
+\subsection{Materials and Methods}
+
+\paragraph{Harmonic radar tags}
+
+We fabricated dipole harmonic radar tags by attaching antennae to Schottky diodes (RECCO AB, Lidingö, Sweden). Two 8 cm lengths of super-elastic nitinol wire (0.076 mm diameter, McMaster-Carr, Aurora, OH, USA) were attached to each diode with UV-activated adhesive (Bondic, Niagara Falls, NY, USA), so that each wire touched one of the diode contacts while avoiding the opposite diode contact and the other wire. Electrical connections between the wires and diode contacts were secured using conductive silver paint (GC Electronics, Rockford, IL, USA). Radar tags were glued to the top of the pronotum of each test beetle using UV-activated adhesive.
+
+\paragraph{Insects}
+
+CRB adults were collected from pheromone traps at the Leo Palace Resort on DATE.  These insects were held in moist coir REF and were fed banana slices.
+
+\paragraph{Tagged insect releases}
+
+About an hour before sunset, tagged beetles were placed in a 10 cm deep layer of damp coir at the bottom of a large plastic garbage container. Most beetles readily flew out of the container within an hour after sunset. Early the next morning, beetles remaining in the coir were counted.
+
+A total of 27 tagged beetles were released at the University of Guam Yigo Experiment Station on July 7 and 11 and 39 beetles were released in Yona on July 12.
+
+\paragraph{Search for tagged insects}
+
+During days following tagged beetle releases, we performed surveys using three hand-held harmonic radar devices (RECCO AB, Lidingö, Sweden) designed for finding avalanche victims. Searchers monitored audio output from the radar devices using headphones and recorded their search paths using a smart phone app REF.
+
+Surveys were conducted at Yigo on July 8, 12 and 15 and at Yona on July 13 and 15.
+
+\subsection{Results and Discussion}
+
+About two-thirds of the tagged beetles flew out of the large plastic garbage containers at release sites (Table \ref{table1}). However, no tagged beetles were detected during 5 harmonic radar surveys conducted following release.
 
 \begin{table}[!ht]
 	\centering
-	\caption{caption here}
+	\caption{Numbers of beetles which flew out of and remained in large garbage containers at release sites.}
 	\label{table1}
 	\begin{tabular}{lcccc}
 		\hline
@@ -381,9 +405,20 @@ A total of 27 tagged beetles were released at the University of Guam Yigo Experi
 	\end{tabular}
 \end{table}
 
+\paragraph{Failure analysis}
+
+Examination of beetles which failed to fly out of the large garbage containers at release sites showed a problem with attachment of antennae to the diodes. 
+Sixty-one percent (22 of the 36) beetles which did not fly had damaged tags: 22 had one or more detached antenna wires and one had a detached diode (Table \ref{table2}).
+
+Apparently, the silver conductive paint and UV-cured glue did not create a physical bond strong enough for this application. Electrical connectivity may also be a problem. 
+
+We are now attempting to solve this technical problem by attaching antennae wires by soldering them to diodes under a microscope.
+
+We purchased precision soldering equipment for this. However, our first attempt failed. Getting solder to "wet" nitinol wire, made from an allow of nickel and tin, is difficult because of oxides on the surface of the wire need to be removed. We have ordered a special soldering kit specifically designed for nitinol and will give this a try when it arrives.
+
 \begin{table}[!ht]
 	\centering
-	\caption{caption here}
+	\caption{Status of harmonic radar tags attached to beetles remaining in release containers.}
 	\label{table2}
 	\begin{tabular}{lcccc}
 		\hline
@@ -397,8 +432,21 @@ A total of 27 tagged beetles were released at the University of Guam Yigo Experi
 
 
 
+\subsection{Ancillary experiments}
 
-Sixty-one percent (22 of the 36) beetles which did not fly had damaged tags: 22 had one or more detached antenna wires and one had a detached diode.
+\subsubsection{Maximum detection distances for each of the 3 RECCO transceivers we used}
+
+See \href{https://osf.io/9f4mb}{Jupyter notebook} for details.
+
+
+\subsubsection{Maximum detection distances for single and doouble tagged CRB}
+
+See \href{https://osf.io/2ypgk}{Jupyter notebook} for details.
+
+
+\subsubsection{Attenuation of maximum detection distances when targets are buried in coir}
+
+See \href{https://osf.io/zheqm}{Jupyter notebook} for details.
 
 \printbibliography
 
