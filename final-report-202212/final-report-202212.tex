@@ -1,3 +1,11 @@
+% Suggestion: Use python-pdf-link-checker:
+
+% conda deactivate
+% source source ~/myenv/bin/activate
+% pdf-link-checker check-links final-report-202212.pdf
+
+% Results will be saved in report.csv
+
 \documentclass[12pt,letterpaper,english,bibliography=totocnumbered, abstract=on]{scrartcl}
 
 \usepackage[page,toc,titletoc,title]{appendix}
@@ -87,7 +95,7 @@ US Forest Service funded a field test of this idea based on a small grant propos
 
 In July 2022, Dr. Matt Siderhurst, from Eastern Mennonite University, Virginia and two of his students, Skylar List and and Theodore Yoder, travelled to Guam to collaborate with us on Guam to field test the idea of tracking beetles with miniature harmonic radar tags attached to them. We were also assisted by Michael Jordan, US Forest Service and my technician, Christian Cayanan.
 
-We used an Open Science Framework (OSF) project \cite{Moore_Yoder_Cayanan_List_2023} to document this field trial. \href{https://osf.io/esnc7/}{Details are available online}. The following subsections summarize what we did and what we learned.
+We used an Open Science Framework (OSF) project \cite{Moore_Yoder_Cayanan_List_2023} to document this field trial.  The following subsections summarize what we did and what we learned. Further details are available in the OSF project at \url{https://osf.io/esnc7/}.
 
 \subsection{Materials and Methods}
 
@@ -97,17 +105,17 @@ We fabricated dipole harmonic radar tags by attaching antennae to Schottky diode
 
 \paragraph{Insects}
 
-CRB adults were collected from pheromone traps at the Leo Palace Resort on DATE.  These insects were held in moist coir REF and were fed banana slices.
+CRB adults were collected from pheromone traps at the Leo Palace Resort on July 5 2023.  These insects were held in moist coir (Burpee Seed Starting Mix) and were fed banana slices.
 
 \paragraph{Tagged insect releases}
 
-About an hour before sunset, tagged beetles were placed in a 10 cm deep layer of damp coir at the bottom of a large plastic garbage container. Most beetles readily flew out of the container within an hour after sunset. Early the next morning, beetles remaining in the coir were counted.
+About an hour before sunset at release sites, tagged beetles were placed in a 10 cm deep layer of damp coir at the bottom of a large plastic garbage container. Most beetles readily flew out of the container within an hour after sunset. Early the next morning, beetles remaining in the coir were counted.
 
 A total of 27 tagged beetles were released at the University of Guam Yigo Experiment Station on July 7 and 11 and 39 beetles were released in Yona on July 12.
 
 \paragraph{Search for tagged insects}
 
-During days following tagged beetle releases, we performed surveys using three hand-held harmonic radar devices (RECCO AB, Lidingö, Sweden) designed for finding avalanche victims. Searchers monitored audio output from the radar devices using headphones and recorded their search paths using a smart phone app REF.
+During days following tagged beetle releases, we performed surveys using three hand-held harmonic radar devices (RECCO AB, Lidingö, Sweden) designed for finding avalanche victims. Searchers monitored audio output from the radar devices using headphones and recorded their search paths using a smart phone app (SW Maps).
 
 Surveys were conducted at Yigo on July 8, 12 and 15 and at Yona on July 13 and 15.
 
@@ -134,11 +142,9 @@ About two-thirds of the tagged beetles flew out of the large plastic garbage con
 Examination of beetles which failed to fly out of the large garbage containers at release sites showed a problem with attachment of antennae to the diodes. 
 Sixty-one percent (22 of the 36) beetles which did not fly had damaged tags: 22 had one or more detached antenna wires and one had a detached diode (Table \ref{table2}).
 
-Apparently, the silver conductive paint and UV-cured glue did not create a physical bond strong enough for this application. Electrical connectivity may also be a problem. 
+We suspect that we failed to detect any tagged beetles because the silver conductive paint and UV-cured glue did not create a physical bond strong enough for this application. Electrical connectivity may also be a problem. 
 
-We are now attempting to solve this technical problem by attaching antennae wires by soldering them to diodes under a microscope.
-
-We purchased precision soldering equipment for this. However, our first attempt failed. Getting solder to "wet" nitinol wire, made from an allow of nickel and tin, is difficult because of oxides on the surface of the wire need to be removed. We have ordered a special soldering kit specifically designed for nitinol and will give this a try when it arrives.
+We are attempting to solve this technical problem by attaching antennae wires by soldering them to diodes under a microscope. We purchased precision soldering equipment for this. However, our first attempt failed. Getting solder to "wet" nitinol wire, made from an allow of nickel and tin, is difficult because of oxides on the surface of the wire need to be removed. We have ordered a special soldering kit specifically designed for nitinol and will give this a try when it arrives.
 
 \begin{table}[!ht]
 	\centering
@@ -156,10 +162,10 @@ We purchased precision soldering equipment for this. However, our first attempt 
 
 \section{Ancillary experiments}
 
-\subsection{Expt.1: Maximum detection distances for each of the 3 RECCO transceivers we used}
+\subsection{Expt. 1: Maximum detection distances for each of the 3 RECCO transceivers we used}
 Please see Jupyter notebook in Appendix \ref{exp1}.
 
-\subsubsection{Expt. 2: Maximum detection distances for single and double tagged CRB}
+\subsection{Expt. 2: Maximum detection distances for single and double tagged CRB}
 Please see Jupyter notebook in Appendix \ref{exp2}.
 
 \subsection{Expt. 3: Attenuation of maximum detection distances when targets are buried in coir}
